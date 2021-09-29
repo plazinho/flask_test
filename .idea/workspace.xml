@@ -1,41 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f10fd7f4-839f-4bdf-876d-2f7bdf88b9b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/artists_similarity_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="ff3e215e-4078-4f4f-802b-703e88367cac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/input_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/artist_name_checking.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/artist_name_checking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/core/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Billie eilish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Billie eilish.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Blues saraceno.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Blues saraceno.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Bring me the horizon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Bring me the horizon.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Depeche mode.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Flo rida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Flo rida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Gorillaz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Gorillaz.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Hollywood undead.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Hollywood undead.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Imagine dragons.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Imagine dragons.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Keane.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Keane.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Led zeppelin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Led zeppelin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Linkin park.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Linkin park.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Maroon 5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Maroon 5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Meg myers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Meg myers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Mike Shinoda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Mike Shinoda.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Nazareth.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Nazareth.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Neffex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Neffex.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Papa roach.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Papa roach.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Placebo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Placebo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Rammstein.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Rammstein.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Skindred.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Skindred.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Starset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Starset.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/System of a down.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/System of a down.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/The neighbourhood.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/The neighbourhood.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/The pretty reckless.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/The pretty reckless.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/data/Thousand foot krutch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/data/Thousand foot krutch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/recommendation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tfidf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/AC_DC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Arctic Monkeys.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Billie Eilish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Black Eyed Peas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Blues Saraceno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Bring Me The Horizon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Coldplay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Disturbed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Drake.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Eminem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Fall Out Boy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Flo Rida.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Gorillaz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Grandson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Guns N’ Roses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Halsey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Hollywood Undead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Imagine Dragons.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Keane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/LMFAO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Led Zeppelin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Linkin Park.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Maroon 5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Meg Myers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Metallica.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Michael Jackson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Mike Shinoda.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Muse.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/NEFFEX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Nazareth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Nickelback.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Oh Wonder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Oomph!.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Papa Roach.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Placebo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Queen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Rammstein.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/STARSET.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Scorpions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Shanti Dope.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Skindred.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/System of a Down.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Tardigrade Inferno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/The Cranberries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/The Neighbourhood.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/The Pretty Reckless.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/The Prodigy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Thirty Seconds to Mars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data/Thousand Foot Krutch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_flask_music_matcher.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/for_flask_music_matcher.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +74,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ymSYATRdHx12FWTAw7zJmaHNTl" />
+  <component name="ProjectId" id="1ynljZePwG8WOejiUwh5RYgRyN9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,8 +84,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.recommendation">
-    <configuration name="artist_name_checking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.init_parser">
+    <configuration name="init_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/artist_name_checking.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/core/init_parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="artists_similarity_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/artists_similarity_database.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/loader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/core/parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,63 +171,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.recommendation" />
-        <item itemvalue="Python.artist_name_checking" />
+        <item itemvalue="Python.init_parser" />
+        <item itemvalue="Python.loader" />
         <item itemvalue="Python.parser" />
-        <item itemvalue="Python.artists_similarity_database" />
+        <item itemvalue="Python.recommendation" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f10fd7f4-839f-4bdf-876d-2f7bdf88b9b7" name="Default Changelist" comment="" />
-      <created>1632855315107</created>
+      <changelist id="ff3e215e-4078-4f4f-802b-703e88367cac" name="Default Changelist" comment="" />
+      <created>1632895369644</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632855315107</updated>
+      <updated>1632895369644</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-        <entry key="d5a5f7d6-6c95-4b1c-b49e-cd52c923a154">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="d5a5f7d6-6c95-4b1c-b49e-cd52c923a154" value="TOOL_WINDOW" />
-      </map>
-    </option>
   </component>
 </project>

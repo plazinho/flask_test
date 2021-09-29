@@ -19,7 +19,7 @@ def name_checker(name: str) -> str:
                            sleep_time=1,
                            retries=2,
                            verbose=True)
-        response = (genius.search_artist(name, max_songs=1))
+        response = genius.search_artist(name, max_songs=1)
         true_name = response.name
         return true_name
     except:
