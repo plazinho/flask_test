@@ -1,5 +1,5 @@
 ABBA
-AC_DC
+AC DC
 Aerosmith
 Alice Cooper
 Arcade Fire
@@ -22,7 +22,6 @@ Cream
 Creedence Clearwater Revival
 Crosby, Stills & Nash
 Daft Punk
-David Caggiano and Sami Chohfi
 Death Cab for Cutie
 Def Leppard
 Demi Lovato
@@ -41,9 +40,8 @@ Flo Rida
 Fugazi
 Genesis
 Gorillaz
-Grandson
 Green Day
-Guns N’ Roses
+Guns N Roses
 Halsey
 Hollywood Undead
 Imagine Dragons
@@ -80,7 +78,6 @@ One Direction
 Oomph!
 OutKast
 Papa Roach
-Parliament-Funkadelic
 Pavement
 Pearl Jam
 Pere Ubu
@@ -127,7 +124,7 @@ The Decemberists
 The Dillards
 The Doors
 The Drifters
-The Eagles (Vocal Group)
+Eagles
 The Everly Brothers
 The Flamingos
 The Flying Burrito Brothers
@@ -142,7 +139,7 @@ The Judds
 The Kingston Trio
 The Kinks
 The Louvin Brothers
-The Lovin’ Spoonful
+The Lovin Spoonful
 The Melons
 The Mills Brothers
 The Monkees
@@ -168,7 +165,6 @@ The Strokes
 The Temptations
 The Turtles
 The Velvet Underground
-The Ventures
 The Weavers
 The White Stripes
 The Who

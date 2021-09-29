@@ -1,23 +1,52 @@
-import nltk
+import os
 import re
+
+import nltk
+from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import RegexpTokenizer
 
-def clean_lemm_general(text_general):
+nltk.download('wordnet')
+nltk.download('stopwords')
 
-    nltk.download('wordnet')
-    def clean(text):
+reg_tok = RegexpTokenizer('\w+')
+stop_nltk = stopwords.words('english')
+wn_lemmatizer = WordNetLemmatizer()
 
-        text_clean_pre = text.lower()  # приводим все символы к нижнему регистру
-        text_clean_pre = re.sub(r'\d+', '', text_clean_pre)  # удаляем все числа
-        text_clean_pre = re.sub(r'[^\w\s]','', text_clean_pre)  # удаляем все знаки препинания
-        text_clean_pre = re.sub(r'http\S+',"", text_clean_pre)
-        text_clean_pre = re.sub(r'@\w+', '', text_clean_pre)
-        text_clean_pre = re.sub(r'#\w+', '', text_clean_pre)
-        return text_clean_pre
 
-    text_clean_gen = [clean(i) for i in text_general.split()]
-    text_lem = WordNetLemmatizer()
-    lem_text = []
-    for words in text_clean_gen:
-        lem_text.append(' '.join([text_lem.lemmatize(word) for word in words.split()]))
-    return ' '.join(lem_text)
+def clean_and_lemmatize(text: str, tokenizer=reg_tok, stopw=stop_nltk, lemmatizer=wn_lemmatizer) -> str:
+    """
+    Предобработка текстов песен исполнителя
+    :param text: принимает на вход строку - файл с текстами всех песен исполнителя.
+    :param tokenizer: токенизатор
+    :param stopw: стоп-слова
+    :param lemmatizer: лемматизатор
+    :return: возвращает строку, состоящую из обработанных слов
+    """
+    # cleaning
+    text = text.lower()
+    text = re.sub(r'http\S+', " ", text)
+    text = re.sub(r'@\w+', ' ', text)
+    text = re.sub(r'#\w+', ' ', text)
+    text = re.sub(r'\d+', ' ', text)
+    text = re.sub(r'<.*?>', ' ', text)
+
+    # tokenining
+    text = tokenizer.tokenize(text)
+
+    # filtering from stopwords
+    #    text = [word for word in text if not word in stopw] # try with or without stopwords
+
+    # lemmatization
+    text = ' '.join([lemmatizer.lemmatize(word) for word in text])
+    return text
+
+
+songs_artists = dict()
+for artist in os.listdir('../../api/data/raw_data'):
+    try:
+        with open(f"../../api/data/raw_data/{artist}", encoding='utf-8', newline='') as f:
+            lyrics = f.read()
+            songs_artists[artist[:-4]] = clean_and_lemmatize(lyrics)
+    except:
+        print(f"Some exception for '{artist}'")

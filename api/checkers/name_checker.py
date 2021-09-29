@@ -1,27 +1,31 @@
+# import os
+
 import lyricsgenius as lg
+
 from api.loader import API_TOKEN
-def name_checker(name):
+from api.checkers.input_checker import input_checker
+
+
+def name_checker(name: str) -> str:
+    """
+    Функция исправляет имя исполнителя из запроса пользователя по имени исполнителя из базы 'Genius'
+    :param name: имя исполнителя от пользователя
+    :return: исправленное имя исполнителя, хранящееся в базе Genius
+    """
+    name = input_checker(name)
     try:
-        genius = lg.Genius(API_TOKEN,skip_non_songs=True, remove_section_headers=True)
-        response = (genius.search_artist(name, max_songs=1, sort='popularity'))
-        true_name = response.name
+        genius = lg.Genius(API_TOKEN,
+                           skip_non_songs=True,
+                           remove_section_headers=True,
+                           sleep_time=1,
+                           retries=2,
+                           verbose=True)
+        response = genius.search_artist(name, max_songs=1)
+        true_name = response.name.replace('/', '_').replace('\u200b', '')
         return true_name
     except:
-        return name
+        print(f"Couldn't find '{name}' in database, check the spelling of the artist's name")
 
-print(name_checker(''))
-# import lyricsgenius as lg
-# from joblib import Parallel, delayed
-#
-# def name_checker(names):
-#     res = []
-#     for i in names:
-#         try:
-#             genius = lg.Genius(API_TOKEN, skip_non_songs=True, remove_section_headers=True)
-#             name = (genius.search_artist(i, max_songs=1, allow_name_change=True)).name
-#             res.append(name)
-#         except:
-#             print('error')
-#     Parallel(n_jobs=20, verbose=1)(delayed(name_checker)(i) for i in names)
-#
-#     return res
+
+
+
