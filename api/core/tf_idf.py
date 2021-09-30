@@ -10,7 +10,7 @@ def tf_idf():
     На основе этой матрицы и будет осуществляться рекомандация исполнителей пользователю
     :return:
     """
-    with open("api/data/dictionary_words.json", "r") as f:
+    with open("api/data/dictionary_words.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     tfidf = TfidfVectorizer(ngram_range=(1, 4))

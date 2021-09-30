@@ -26,7 +26,7 @@ def init_parser(name: str, k=15):
         songs, true_name = response.songs, response.name.replace('/', '_').replace('\u200b', '')  # записываем песни в songs и
                                                                                                   # берем правильное написание имени исп. в true_name
         s = [song.lyrics for song in songs]
-        with open(f"api/data/raw_data/{true_name}.txt", "w") as f:
+        with open(f"api/data/raw_data/{true_name}.txt", "w", encoding="utf-8") as f:
             f.write("\n \n".join(s))
         print(f"For '{true_name}' songs grabbed: {len(s)}")
     except:

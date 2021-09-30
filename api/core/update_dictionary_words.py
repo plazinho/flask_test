@@ -9,8 +9,8 @@ def update_dictionary_words(name, lyrics):
     :param lyrics: Текст его песен
     :return:
     """
-    with open("api/data/dictionary_words.json", "r") as f:
+    with open("api/data/dictionary_words.json", "r", encoding="utf-8") as f:
         data = json.load(f)
         data[name] = lyrics
-    with open("api/data/dictionary_words.json", "w") as f:
+    with open("api/data/dictionary_words.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=16)

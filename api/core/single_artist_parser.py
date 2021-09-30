@@ -21,7 +21,7 @@ def single_artist_parser(name: str, k=15):
         response = genius.search_artist(name, max_songs=k, sort='popularity')
         songs = response.songs
         s = [song.lyrics for song in songs]
-        with open(f"api/data/raw_data/{name}.txt", "w") as f:
+        with open(f"api/data/raw_data/{name}.txt", "w", encoding="utf-8") as f:
             f.write("\n \n".join(s))
         print(f"For '{name}' songs grabbed: {len(s)}")
     except:

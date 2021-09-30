@@ -19,7 +19,7 @@ INFO = 'Отправь мне имя иностранного исполните
 
 INPUT_ERROR = 'Запрос должен быть только в текстовом виде - из букв, цифр или символов'
 
-with open("api/data/artist_names.txt", 'r', encoding='utf-8') as file:
+with open("api/data/artist_names.txt", 'r', encoding="utf-8") as file:
     names_list = file.read().strip().split('\n')
 
 DATABASE = '\n'.join(sorted(names_list)).replace('_', '/')
