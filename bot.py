@@ -6,18 +6,17 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-from static.texts import INFO, START, INPUT_ERROR, DATABASE, COUNT
+from static.texts import INFO, START, INPUT_ERROR, DATABASE, COUNT, HELP
 from api.loader import TELEGRAM_TOKEN
 from api.checkers.file_checker import file_checker
 from api.core.recommendation import recommend
 
 # Инициализация локальной базы
-# file_checker("api/data/dictionary_words.json")
+file_checker("api/data/dictionary_words.json")
 
 # Логирование
 logging.basicConfig(filename='log.log',
                     level=logging.INFO)
-
 
 # Инициализация бота
 bot = Bot(token=TELEGRAM_TOKEN)
@@ -35,6 +34,11 @@ async def process_start_command(message: types.Message):
 @dp.message_handler(commands=['info'])
 async def process_info_command(message: types.Message):
     await message.reply(INFO)
+
+
+@dp.message_handler(commands=['help'])
+async def process_info_command(message: types.Message):
+    await message.reply(HELP)
 
 
 @dp.message_handler(commands=['artists'])
