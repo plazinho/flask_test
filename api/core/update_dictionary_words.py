@@ -1,14 +1,16 @@
-import os
-
-from api.core.cleaner import clean_and_lemmatize
+import json
 
 
-def update_dictionary_words(lyrics):
-    songs_artists = dict()
-    for artist in os.listdir('../../api/data/raw_data'):
-        try:
-            with open(f"../../api/data/raw_data/{artist}", encoding='utf-8', newline='') as f:
-                lyrics = f.read()
-                songs_artists[artist[:-4]] = clean_and_lemmatize(lyrics)
-        except:
-            print(f"Some exception for '{artist}'")
+def update_dictionary_words(name, lyrics):
+    """
+    Функция обновляет словарь, состоящий из исполнителей(ключи) и всех их обработанных текстов песен(значения)
+    На основе этого словаря производится расчет матрицы близости в функции tf_idf
+    :param name: Новый исполнитель
+    :param lyrics: Текст его песен
+    :return:
+    """
+    with open("api/data/dictionary_words.json", "r") as f:
+        data = json.load(f)
+        data[name] = lyrics
+    with open("api/data/dictionary_words.json", "w") as f:
+        json.dump(data, f, indent=16)

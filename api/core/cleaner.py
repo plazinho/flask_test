@@ -1,13 +1,9 @@
-import os
 import re
 
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
 
-nltk.download('wordnet')
-nltk.download('stopwords')
 
 reg_tok = RegexpTokenizer('\w+')
 stop_nltk = stopwords.words('english')
@@ -35,18 +31,8 @@ def clean_and_lemmatize(text: str, tokenizer=reg_tok, stopw=stop_nltk, lemmatize
     text = tokenizer.tokenize(text)
 
     # filtering from stopwords
-    #    text = [word for word in text if not word in stopw] # try with or without stopwords
+#    text = [word for word in text if not word in stopw] # try with or without stopwords
 
     # lemmatization
     text = ' '.join([lemmatizer.lemmatize(word) for word in text])
     return text
-
-
-songs_artists = dict()
-for artist in os.listdir('../../api/data/raw_data'):
-    try:
-        with open(f"../../api/data/raw_data/{artist}", encoding='utf-8', newline='') as f:
-            lyrics = f.read()
-            songs_artists[artist[:-4]] = clean_and_lemmatize(lyrics)
-    except:
-        print(f"Some exception for '{artist}'")

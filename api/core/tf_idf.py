@@ -1,11 +1,21 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
-from api.core.cleaner import songs_artists
+import json
 
-tfidf = TfidfVectorizer(ngram_range=(1, 4))
-tfidf_representation = tfidf.fit_transform(songs_artists.values())
 
-artists_similarity = cosine_similarity(tfidf_representation)
+def tf_idf():
+    """
+    Функция производит расчет матрицы косинусной близости текстов песен с помощью показателя TF_IDF
+    На основе этой матрицы и будет осуществляться рекомандация исполнителей пользователю
+    :return:
+    """
+    with open("api/data/dictionary_words.json", "r") as f:
+        data = json.load(f)
 
-pd.DataFrame(artists_similarity, index=songs_artists.keys(), columns=songs_artists.keys()).to_csv("../../api/data/TF_IDF.csv")
+    tfidf = TfidfVectorizer(ngram_range=(1, 4))
+    tfidf_representation = tfidf.fit_transform(data.values())
+
+    artists_similarity = cosine_similarity(tfidf_representation)
+
+    pd.DataFrame(artists_similarity, index=data.keys(), columns=data.keys()).to_csv("api/data/TF_IDF.csv")
