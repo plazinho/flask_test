@@ -1,6 +1,9 @@
 import os
 import logging
 import time
+import nltk
+nltk.download('wordnet')
+nltk.download('stopwords')
 
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
