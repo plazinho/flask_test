@@ -16,4 +16,7 @@ def file_checker(file_path):
         print("Either file is missing or is not readable, creating file and starting init_script.py...")
         with open(f'{file_path}', 'w') as f:
             f.write(json.dumps({}))
+        data_path = 'api/data/raw_data'
+        if not os.path.exists(data_path):
+            os.mkdir(data_path)
         import api.core.init_script

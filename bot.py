@@ -6,13 +6,14 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-from static.texts import INFO, START, INPUT_ERROR, DATABASE, COUNT, HELP
 from api.loader import TELEGRAM_TOKEN
 from api.checkers.file_checker import file_checker
 from api.core.recommendation import recommend
 
 # Инициализация локальной базы
 file_checker("api/data/dictionary_words.json")
+from static.texts import INFO, START, INPUT_ERROR, DATABASE, COUNT, HELP
+
 
 # Логирование
 logging.basicConfig(filename='log.log',
