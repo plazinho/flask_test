@@ -3,7 +3,7 @@ import lyricsgenius as lg
 from api.loader import API_TOKEN
 
 
-def single_artist_parser(name: str, k=15):
+def single_artist_parser(name: str, k=10):
     """
     Функция записывает определенное количество текстов песен 'k' в файл с именем исполнителя 'name'
     Название файла записывается по имени исполнителя 'name'
