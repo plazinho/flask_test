@@ -3,6 +3,9 @@
 Создает первоначальную локальную базу с исполнителями и их текстами песен из заданного списка исполнителей init_names.txt
 """
 import os
+import nltk
+nltk.download('wordnet')
+nltk.download('stopwords')
 
 from joblib import Parallel, delayed
 

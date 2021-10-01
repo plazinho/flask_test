@@ -2,7 +2,7 @@ import os
 import json
 
 
-def file_checker(file_path):
+def file_checker(file_path="api/data/dictionary_words.json"):
     """
     Функция проверяет наличие словаря, состоящего из исполнителей(ключи) и всех их обработанных текстов песен(значения)
     Если этого файла нет, то производится запуск скрипта init_script.py для создания первоначальной локальной базы
@@ -20,3 +20,6 @@ def file_checker(file_path):
         if not os.path.exists(data_path):
             os.mkdir(data_path)
         import api.core.init_script
+
+
+file_checker()
