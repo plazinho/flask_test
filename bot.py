@@ -12,8 +12,9 @@ import api.checkers.file_checker
 from api.loader import TELEGRAM_TOKEN
 from api.core.recommendation import recommend
 
-from static.texts import INFO, START, INPUT_ERROR, DATABASE, COUNT, HELP
-
+from static.texts import INFO, START, INPUT_ERROR, HELP
+from static.artist_list import artist_list
+from static.artist_count import artist_count
 
 # Логирование
 logging.basicConfig(filename='log.log',
@@ -44,12 +45,12 @@ async def process_info_command(message: types.Message):
 
 @dp.message_handler(commands=['artists'])
 async def process_artist_command(message: types.Message):
-    await message.reply(DATABASE)
+    await message.reply(artist_list())
 
 
 @dp.message_handler(commands=['artists_count'])
 async def process_artist_count_command(message: types.Message):
-    await message.reply(COUNT)
+    await message.reply(artist_count())
 
 
 @dp.message_handler()
