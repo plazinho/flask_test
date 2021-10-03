@@ -51,7 +51,7 @@ async def process_artist_count_command(message: types.Message):
 
 async def please_wait(dispatcher):
     logging.info(f'Начали обновление локальной базы в {time.asctime()}')
-    await bot.send_message(chat_id=ADMIN_ID, text=f'В локальной базе отсутствует исполнитель'
+    await bot.send_message(chat_id=ADMIN_ID, text=f'В локальной базе отсутствует исполнитель,'
                                                   f' обновляем базу, это может занять 1-2 минуты')
 
 
