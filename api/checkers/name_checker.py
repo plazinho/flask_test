@@ -3,11 +3,10 @@ import lyricsgenius as lg
 from api.loader import API_TOKEN
 
 
-def name_checker(name: str, message) -> str:
+def name_checker(name: str) -> str:
     """
     Функция исправляет имя исполнителя из запроса пользователя по имени исполнителя из базы 'Genius'
     :param name: имя исполнителя от пользователя
-    :param message: входные данные от пользователя, чтобы иметь возможность ответить ему
     :return: исправленное имя исполнителя, хранящееся в базе Genius
     """
     try:
@@ -22,3 +21,4 @@ def name_checker(name: str, message) -> str:
         return true_name
     except:
         print(f"Couldn't find '{name}' in database, check the spelling of the artist's name")
+        return 'error'

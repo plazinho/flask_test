@@ -1,10 +1,9 @@
-import asyncio
 import time
 import logging
 
 from aiogram import types
 
-from bot import bot, dp, loop
+from bot import bot, dp
 from api.loader import ADMIN_ID
 from static.texts import INFO, START, INPUT_ERROR, HELP
 from static.artist_list import artist_list
@@ -49,25 +48,36 @@ async def process_artist_count_command(message: types.Message):
     await message.reply(artist_count())
 
 
-async def please_wait(dispatcher):
-    logging.info(f'Начали обновление локальной базы в {time.asctime()}')
-    await bot.send_message(chat_id=ADMIN_ID, text=f'В локальной базе отсутствует исполнитель,'
-                                                  f' обновляем базу, это может занять 1-2 минуты')
-
-
+# основной обработчик сообщений от пользователя
 @dp.message_handler()
 async def user_request(message: types.Message):
+    from api.checkers.name_checker import name_checker
+    from api.checkers.artist_checker import artist_checker
+    from api.core.single_artist_update import single_artist_update
     from api.core.recommendation import recommend
+
     txt = message.text
     user_id = message.from_user.id
     user_name = message.from_user.full_name
+    logging.info(f'Нам написал {user_name} в {time.asctime()}, его id = {user_id}. Содержание запроса: {txt}')
+
     if len(txt) > 30:
-        await bot.send_message(user_id, 'Пришли имя исполнителя длиной не более 30 символов')
+        await message.reply('Пришли имя исполнителя длиной не более 30 символов')
     else:
-        logging.info(f'Нам написал {user_name} в {time.asctime()}, его id = {user_id}. Содержание запроса: {txt}')
-        await message.reply(recommend(txt, message))
+        name = name_checker(txt)
+        if name == 'error':
+            await message.reply(f"Не удается найти '{txt}', проверь правильность написания имени исполнителя")
+        elif artist_checker(name) == 'not in DB':
+            await bot.send_message(chat_id=user_id, text=f'В локальной базе отсутствует исполнитель,'
+                                                         f' обновляем и пересчитываем базу, это может занять 1-2 минуты...')
+            logging.info(f"Начали обновлять базу по запросу '{txt}' от {user_name} в {time.asctime()}")
+            single_artist_update(name)
+            await message.reply(recommend(name))
+        else:
+            await message.reply(recommend(name))
 
 
+# обработчик на случай, если был прислан не текст, а стикер, фото или любой другой тип данных
 @dp.message_handler(content_types='any')
 async def unknown_message(message: types.Message):
     user_id = message.from_user.id

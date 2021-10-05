@@ -17,7 +17,6 @@ from api.core.cleaner import clean_and_lemmatize
 from api.core.tf_idf import tf_idf
 
 
-
 with open("api/data/init_names.txt", 'r', encoding="utf-8") as file:  # файл с именами исполнителей для создания первоначальной базы
     names = file.read().strip().split('\n')
 
