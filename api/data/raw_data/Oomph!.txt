@@ -21,7 +21,6 @@ Augen auf, ich komme!
 Augen auf, ich komme!
 Aufgepasst, ich komme!
 Zeig dich nicht!
-
 Ständig ruf ich deinen Namen
 Ständig such ich dein Gesicht
 Wenn ich dich dann endlich habe
@@ -46,7 +45,6 @@ Augen auf, ich komme!
 Versteck dich!
 Aufgepasst, ich komme! (Ja!)
 Zeig dich nicht!
-
 Eins, zwei, drei, vier, Eckstein
 Alles muss versteckt sein!
 Eckstein, Eckstein, alles muss versteckt sein
@@ -64,7 +62,7 @@ Versteck dich!
 Augen auf, ich komme!
 Versteck dich!
 Aufgepasst, ich komme! (Ja!)
-Zeig dich nicht!
+Zeig dich nicht!1EmbedShare URLCopyEmbedCopy
  
 Links, rechts, gerade aus
 Du kommst hier nicht mehr raus
@@ -91,7 +89,6 @@ Klopf klopf, lass mich rein
 Lass mich dein Geheimnis sein
 Klopf klopf, lass mich rein
 Lass mich dein Geheimnis sein
-
 Links, rechts, gerade aus, du bist im Labyrinth
 Links, rechts, gerade aus, links, rechts, gerade aus
 Keiner kann dir sagen welche Türen die richtigen sind
@@ -117,7 +114,6 @@ Klopf klopf, lass mich rein
 Lass mich dein Geheimnis sein
 Klopf klopf, lass mich rein
 Lass mich dein Geheimnis sein
-
 Links, rechts, gerade aus, du bist im Labyrinth
 Links, rechts, gerade aus, links, rechts, gerade aus
 Keiner kann dir sagen welche Türen die richtigen sind
@@ -157,7 +153,7 @@ Keiner kann dir sagen wer die guten und die bösen sind
 Links, rechts, gerade aus
 Du kommst hier nich mehr raus
 Links, rechts, gerade aus
-Du kommst hier nich mehr raus
+Du kommst hier nich mehr rausEmbedShare URLCopyEmbedCopy
  
 Seit tausend Tagen in der fremden Region
 Marschieren sie vorwärts, er und sein Batallion
@@ -179,7 +175,6 @@ Nie wieder Krieg!
 Grausamst schlägt das Schicksal zu
 Heute ich und morgen du
 Tausend Mann und ein Befehl, ein Befehl
-
 Stellt euch quer!
 Stellt euch quer!
 Stellt euch quer!
@@ -226,7 +221,7 @@ Stellt euch quer!
 Stellt euch quer!
 Stellt euch quer!
 Stellt euch quer!
-Stellt euch quer!
+Stellt euch quer!EmbedShare URLCopyEmbedCopy
  
 Dies ist kein Lied über Glück
 Dies ist kein Lied über Hoffnung
@@ -252,7 +247,6 @@ Dies ist kein Liebeslied!
 Es ist kein schönes Lied
 Dies ist kein Liebeslied!
 Und trotzdem werdet ihr es lieben
-
 Dies ist ein Lied über Wut
 Dies ist ein Lied über Rache
 Dies ist ein Lied über Lügen und Abscheu
@@ -276,7 +270,6 @@ Dies ist kein Liebeslied!
 Es ist kein schönes Lied
 Dies ist kein Liebeslied!
 Und trotzdem werdet ihr es lieben
-
 Wo man singt da lass dich ruhig nieder
 Böse Menschen haben keine Lieder
 Wo man singt da lass dich ruhig nieder
@@ -300,7 +293,7 @@ Und trotzdem werdet ihr es lieben
 Dies ist kein Lied über Trost
 Dies ist kein Lied von Erlösung
 Dies ist kein Lied von Vergebung und Einsicht
-Dies ist ein Lied über dich!
+Dies ist ein Lied über dich!EmbedShare URLCopyEmbedCopy
  
 Armes (Armes)
 Deutschland (Deutschland)
@@ -324,7 +317,6 @@ Sandmann! Sandmann!
 Komm zu mir nach Haus
 Streu mir Sand in meine Augen
 Und weck mich nie wieder auf
-
 Armes (Armes)
 Deutschland (Deutschland)
 Kannst du deine Kinder sehen?
@@ -347,7 +339,6 @@ Sandmann! Sandmann!
 Komm zu mir nach Haus
 Streu mir Sand in meine Augen
 Und weck mich nie wieder auf
-
 Trockenbrot macht Wangen rot
 Der Junge lebt in großer Not
 Er schrie sich schon die Lungen wund
@@ -364,7 +355,7 @@ Drum schenk mir einen Traum
 Sandmann! Sandmann!
 Komm zu mir nach Haus
 Streu mir Sand in meine Augen
-Und weck mich nie wieder auf
+Und weck mich nie wieder aufEmbedShare URLCopyEmbedCopy
  
 Left, right, straight ahead
 There’s no way out, you're dead
@@ -445,7 +436,7 @@ Don't make a mistake
 Left, right, straight ahead
 There's no way out, you're dead
 Left, right, straight ahead
-There’s no way out, you're dead
+There’s no way out, you're deadEmbedShare URLCopyEmbedCopy
  
 Ich hab ein böses Spiel für dich
 Ab heute glaubst du nur an mich
@@ -470,7 +461,6 @@ Denn schon seit vielen tausend Jahren
 Brauche ich dich für meinen Plan
 Drum spiel mit mir dies alte Spiel
 Wer wenig weiß, der glaubt zu viel
-
 Terror! Ficken! Hitler!
 Terror! Ficken! Hitler!
 Terror! Ficken! Hitler!
@@ -495,11 +485,10 @@ Terror! Ficken! Hitler!  (Benutz mich!)
 Terror! Ficken! Hitler!  (Verführ mich!)
 Terror! Ficken! Hitler!  (Benutz mich!)
 Terror! Ficken! Hitler!  (Verführ mich!)
-
 Terror! Ficken! Hitler!  (Benutz mich!)
 Terror! Ficken! Hitler!  (Verführ mich!)
 Terror! Ficken! Hitler!  (Benutz mich!)
-Terror! Ficken! Hitler!  (Verführ mich!)
+Terror! Ficken! Hitler!  (Verführ mich!)EmbedShare URLCopyEmbedCopy
  
 Vater unser im Himmel
 Geheiligt werde dein Name
@@ -523,7 +512,6 @@ Gott ist ein Popstar!
 Ihm gehört die Welt
 Gott ist ein Popstar!
 Bis der Vorhang fällt
-
 Vater unser im Himmel
 Geheiligt werde die Lüge
 Mein Fleisch verkomme
@@ -546,7 +534,6 @@ Gott ist ein Popstar!
 Ihm gehört die Welt
 Gott ist ein Popstar!
 Bis der Vorhang fällt
-
 Wir sind so glücklich
 Wir lieben alle den Schein
 Die Welt ist göttlich
@@ -563,7 +550,7 @@ Der Applaus ist groß
 Gott ist ein Popstar! (Gott ist ein Popstar)
 Ihm gehört die Welt (Ihm gehört die Welt)
 Gott ist ein Popstar! (Gott ist ein Popstar)
-Bis der Vorhang fällt
+Bis der Vorhang fälltEmbedShare URLCopyEmbedCopy
  
 In den letzten Zügen, deine Augen leer
 Sehen wir dich am Boden liegen
@@ -610,7 +597,7 @@ Nimm dir Zeit, nimm dir Zeit für den Untergang!
 Europa! Stirb langsam
 Europa! Sei bereit
 Europa! Stirb langsam
-Nimm dir Zeit, nimm dir Zeit für den Untergang!
+Nimm dir Zeit, nimm dir Zeit für den Untergang!EmbedShare URLCopyEmbedCopy
  
 Du bringst mich aus dem Takt, Takt, Taktgefühl
 Fühlst du, wie ich mich heut ganz in dir verlier?
@@ -636,7 +623,6 @@ Mach die Augen auf und tanz, tanz, tanz mit mir
 Du bist alles, alles was mich fesselt
 Niemand kennt mich besser
 Alles, was ich will, bist du
-
 Und darum such mich, find mich, treib mich weiter
 Halt mich, zwing mich, immer weiter
 Lass mich, lass mich, lass mich nie mehr los
@@ -659,7 +645,50 @@ Lass mich, lass mich, lass mich nie mehr los
 Such mich, find mich
 Such mich, find mich
 Such mich, find mich
-Lass mich nie mehr los
+Lass mich nie mehr losEmbedShare URLCopyEmbedCopy
+ 
+Achtung! Achtung! Ende! Ende!
+Ich bring dir gute Mär
+Ich bin dein Ausweg
+Komm, reich mir die Hände
+Achtung! Achtung! Ende! Ende!
+Noch steht die Zeit nicht still
+Bevor du scheidest
+Sag mir was ich hören will
+
+Vater, nimm mich in die Arme
+Zeig mir den Weg
+Bring mich nach Haus
+Vater, bitte hab Erbarmen
+Erhör mein Gebet
+Führ mich hier raus
+
+Achtung! Achtung! Ende! Ende!
+Jetzt geht es himmelwärts
+Ich bin dein Schicksal
+Mit mir kommt die Wende
+Achtung! Achtung! Ende! Ende!
+Nun bin ich nicht mehr fern
+Komm sag's noch einmal
+Denn ich hör es doch so gern
+Vater, nimm mich in die Arme
+Zeig mir den Weg
+Bring mich nach Haus
+Vater, bitte hab Erbarmen
+Erhör mein Gebet
+Führ mich hier raus
+
+Je größer meine Lüge
+Je dreister mein Betrug
+Desto mehr willst du mir glauben
+Ich krieg nie genug
+
+Vater, nimm mich in die Arme
+Zeig mir den Weg (Vater!)
+Bring mich nach Haus (Vater! Vater!)
+Vater, bitte hab Erbarmen
+Erhör mein Gebet (Vater!)
+Führ mich hier raus (Vater! Vater!)EmbedShare URLCopyEmbedCopy
  
 Auferstanden aus Ruinen
 Und dem Ende zugewandt
@@ -710,51 +739,7 @@ Der Vater taub, die Mutter blind
 Wollt ihr eure Kinder retten?
 Dann füttert sie mit Schlaftabletten
 Dass keines eurer Kinder sieht
-Wie eure Welt in Schutt und Asche liegt
- 
-Achtung! Achtung! Ende! Ende!
-Ich bring dir gute Mär
-Ich bin dein Ausweg
-Komm, reich mir die Hände
-Achtung! Achtung! Ende! Ende!
-Noch steht die Zeit nicht still
-Bevor du scheidest
-Sag mir was ich hören will
-
-Vater, nimm mich in die Arme
-Zeig mir den Weg
-Bring mich nach Haus
-Vater, bitte hab Erbarmen
-Erhör mein Gebet
-Führ mich hier raus
-
-Achtung! Achtung! Ende! Ende!
-Jetzt geht es himmelwärts
-Ich bin dein Schicksal
-Mit mir kommt die Wende
-Achtung! Achtung! Ende! Ende!
-Nun bin ich nicht mehr fern
-Komm sag's noch einmal
-Denn ich hör es doch so gern
-
-Vater, nimm mich in die Arme
-Zeig mir den Weg
-Bring mich nach Haus
-Vater, bitte hab Erbarmen
-Erhör mein Gebet
-Führ mich hier raus
-
-Je größer meine Lüge
-Je dreister mein Betrug
-Desto mehr willst du mir glauben
-Ich krieg nie genug
-
-Vater, nimm mich in die Arme
-Zeig mir den Weg (Vater!)
-Bring mich nach Haus (Vater! Vater!)
-Vater, bitte hab Erbarmen
-Erhör mein Gebet (Vater!)
-Führ mich hier raus (Vater! Vater!)
+Wie eure Welt in Schutt und Asche liegtEmbedShare URLCopyEmbedCopy
  
 Ich bin der Vater von Millionen
 Und meine Brut ist mutterlos
@@ -804,7 +789,6 @@ Egal wo ich steh
 Seh ich Brüder, ihr gleich eucht
 Wie ein ein Ei dem anderen
 Denn ihr seid die perfekte Armee
-
 Im Namen des Vaters, des Klones
 Und des heiligen Geistes
 Im Namen des Vaters, des Klones
@@ -832,7 +816,7 @@ Komm, wir ziehen in den Krieg!
 Im Namen des Vaters, des Klones
 Und des heiligen Blutes
 Im Namen des Vaters, des Klones
-Komm, wir holen uns den Sieg!
+Komm, wir holen uns den Sieg!EmbedShare URLCopyEmbedCopy
  
 Alle, alle fragen, jeder, jeder will es wissen
 Warum, warum kommt ihr klar?
@@ -857,7 +841,6 @@ Keiner, keiner kennt die Antwort, die Antwort
 Auf alle, alle deine, deine Fragen, Fragen
 Du musst, du musst nur verstehen, verstehen
 Wir ernten, ernten was wir, was wir säen, säen
-
 Die Leute, Leute gehen ab, die flippen, flippen voll aus
 Ab heute, heut in den Charts, wir schicken, schicken sie rauf
 Die Decke, Decke bricht auf, die Band, die Band is gut drauf
@@ -881,7 +864,6 @@ Keiner, keiner kennt die Antwort, die Antwort
 Auf alle, alle deine, deine Fragen, Fragen
 Du musst, du musst nur verstehen, verstehen
 Wir ernten, ernten was wir, was wir säen, säen
-
 Yes, yes, ya, ya, I'm a hell of a man
 I'm walking, walking down the street
 And hear you, hear you saying
@@ -902,7 +884,7 @@ Keiner, keiner kennt die Antwort, die Antwort
 Auf alle, alle deine, deine Fragen, Fragen
 Du musst, du musst nur verstehen, verstehen
 Wir ernten, ernten was wir, was wir säen, säen
-Wir ernten, ernten was wir, was wir säen
+Wir ernten, ernten was wir, was wir säenEmbedShare URLCopyEmbedCopy
  
 Warum hast du so große Augen?
 Warum hast du so straffe Haut?
@@ -925,7 +907,6 @@ Warum bist du so sonderbar?
 
 Großmutter, Großmutter
 Warum bist du noch so jung?
-
 Wer schön sein will muss leiden, mein Kind
 Die Welt wird dich beneiden, mein Kind
 Weißt du nicht, wer seine Seele an die Hölle verkauft
@@ -946,4 +927,286 @@ Und ich weiß das willst du auch
 Wer schön sein will muss leiden
 Weißt du nicht, wer seinen Körper in der Hölle bestellt
 Bleibt immer jung, hat viel Erfolg und schwimmt im Geld
-Und das ist es doch was zählt
+Und das ist es doch was zähltEmbedShare URLCopyEmbedCopy
+ 
+Europe (Europe)
+Wake up! (Wake up!)
+Can't you see your children lined up?
+On the edge of the abyss they wait
+Europe (Europe)
+Fucked up! (Fucked up!)
+Scared to go to sleep they stay up
+Prisoners of pain
+La-le-lu
+Someone's got their eye on you
+Now the poorest kids are sleeping
+You should sleep too
+La-le-lu
+And their little hearts freeze through
+When the other kids are calling
+You're worthless too
+Sandman!
+Sandman!
+Please put out the lights
+The truth is a big scam
+So let me dream tonight
+Sandman!
+Sandman!
+Stand here by my side
+Sprinkle stardust into my eyes
+And let me sleep 'til I die
+Europe (Europe)
+Wake up! (Wake up!)
+Can't you see your children hate us?
+Slowly, surely they are damned to flames
+Europe (Europe)
+Fucked up! (Fucked up!)
+Like a big casino gone bust
+Everyone's for sale
+La-le-lu
+Someone's got their eye on you
+Now the poorest kids are sleeping
+You should sleep too
+La-le-lu
+And their little hearts freeze through
+When the other kids are calling
+You're worthless too
+Sandman!
+Sandman!
+Please put out the light
+The truth is a big scam
+So let me dream tonight
+Sandman!
+Sandman!
+Stand here by my side
+Sprinkle stardust into my eyes
+And let me sleep 'til I die
+"And let them eat cake," someone said
+When all the children want is bread
+Screaming their lungs out every night
+The hunger burning deep inside
+"And let them eat cake," someone said
+Until the day she lost her head
+Let me show you prosperity
+When children long for what they need
+Sandman!
+Sandman!
+Please put out the lights
+The truth is a big scam
+So let me dream tonight
+Sandman!
+Sandman!
+Stand here by my side
+Sprinkle stardust into my eyes
+And let me sleep 'til I dieEmbedShare URLCopyEmbedCopy
+ 
+Yeah
+Oh, my time is up
+I know you're gonna burn me
+Your judgment's coiled just like a snake
+Around my neck
+Oh, my time is up
+I know you're gonna hang me
+And the noose is pulled so tight
+That it's hard for me to breathe
+Sing me this song of death
+Sing me this song of death
+Sing me this song
+Oh, my time is up (My time is up)
+My destiny is certain
+Your curse floats above me
+Like the melody I hear
+Oh, my time is up (My time is up)
+And Heaven's gates are bolted
+But now I'm not even sure
+If they want me down in Hell
+Sing me this song of death
+Sing me this song of death
+Sing me this song (Sing me this song)
+Of death (Of death)
+Sing me this song (Sing me this song)
+Of death, sing me this song
+Sing me this song of death
+Sing me this song of death
+Grant me one last request
+Sing me this song of death
+Sing me this song (Sing me this song)
+Of death (Of death)
+Sing me this song (Sing me this song)
+Of death
+Sing me this song (Sing me this song)
+Sing me this song (Sing me this song)
+Sing me this song (Sing me this song)
+Sing me this song (Sing me this song)
+Of deathEmbedShare URLCopyEmbedCopy
+ 
+Niemand kannte ihre Stimme, denn sie sprach nie
+Doch im Inneren brannte sie
+Diese Stille war das Schlimme, denn sie schlief nie
+Schon seit Jahren dachte sie
+Ist es wirklich Gottes Wille, dass ich blute
+Wenn der Schäfer bei mir war?
+Und bedeutet Gottes Stille, dass er zusieht
+Wenn der Schäfer flüstert
+
+Kannst du mich berühren?
+Kannst du mich befreien?
+Kannst du mich entführen?
+Es wird dunkel, Ich verlier mich in dir
+
+Gott ist groß!
+Gott wird dir verzeihen
+Gott ist groß!
+Komm ich wasch dich rein
+Ich wasch dich rein!
+
+Auch Maria war im Zimmer wenn er stöhnte
+Doch sie starrte nur und schwieg
+Und sie betete wie immer, doch sie wusste
+Dass der Himmel taub ist
+Kannst du mich berühren?
+Kannst du mich befreien?
+Kannst du mich entführen?
+Es wird dunkel, Ich verlier mich in dir
+
+Gott ist groß!
+Gott wird dir verzeihen
+Gott ist groß!
+Komm ich wasch dich rein
+Ich wasch dich rein!
+Gott ist groß!
+Gott wird dir verzeihen
+Gott ist groß!
+Komm ich wasch dich rein
+Ich wasch dich rein!
+
+Leg dich zu mir!
+Gott ist gut zu dir
+Leg dich zu mir!
+Gott ist gut zu dir
+Gott ist gut zu dir2EmbedShare URLCopyEmbedCopy
+ 
+Ich bin der Pfahl, an den man Hexen bindet
+Ich bin die Haut, auf die man Zeichen brennt
+Ich bin der Stachel, der ins Fleisch sich windet
+Ich bin der Abschaum, der die Massen trennt
+Man wirft mir vor, ich hätte dich vergiftet
+Ich hätte dich mit einem Bann belegt
+Zur Rebellion hät ich dich angestiftet
+Und danach hät ich mich zu dir gelegt
+
+Wir sind schuldig, Du und Ich
+Letzte Worte, hörst du mich?
+
+Lass uns brennen auf dem Scheiterhaufen
+Lass uns durch die Hölle gehen
+Für immer werden wir gemeinsam
+Hand in Hand am Abgrund stehen
+Komm und küss mich hier im Feuerregen
+Lass uns jetzt in Flammen stehen
+Und irgendwann wie Phönix
+Aus der Asche auferstehen
+
+Ich bin das Licht, an dem die Welt erblindet
+Ich bin der Sünder, der am Pranger steht
+Ich bin die Lüge, die das Volk erfindet
+Ich bin das Wort, das man im Mund verdreht
+Siehst du die Fackel in der Hand des Henkers?
+Hörst du den Richter, der das Urteil fällt?
+Man spuckt uns an vorm Haus des Weltenlenkers
+Entfacht ein Feuer, das die Nacht erhält
+Schuld und Sühne, Lug und Trug
+Kinderlachen, Funkenflug
+
+Lass uns brennen auf dem Scheiterhaufen
+Lass uns durch die Hölle gehen
+Für immer werden wir gemeinsam
+Hand in Hand am Abgrund stehen
+Komm und küss mich hier im Feuerregen
+Lass uns jetzt in Flammen stehen
+Und irgendwann wie Phönix
+Aus der Asche auferstehen
+
+Spürst du, wie die Flammen lecken
+Züngeln, und die Zähne blecken?
+Wie das Feuer tanzt und zuckt
+Unsere Körper schluckt
+
+Lass uns brennen auf dem Scheiterhaufen
+Lass uns durch die Hölle gehen
+Für immer werden wir gemeinsam
+Hand in Hand am Abgrund stehen
+Komm und küss mich hier im Feuerregen
+Lass uns jetzt in Flammen stehen
+Und irgendwann wie Phönix
+Aus der Asche auferstehenEmbedShare URLCopyEmbedCopy
+ 
+Sie küsste sanft ihr liebstes Spielzeug
+Bevor sie es zerbrach
+Dann schlich sie sich voll dunkler Sehnsucht
+Ins kalte Schlafgemach
+Sie holte leis das letzte Streichholz
+Aus Vaters Schrank hervor
+Warum hast du mir nie geholfen?
+Schrie sie in Mutters Ohr
+
+Ich hoffe, dass wir uns
+Nie wieder sehen
+
+Damit ihr wisst wie es ist
+In der Hölle zu sein
+Damit ihr wisst wie es ist
+Nach Erlösung zu schreien
+Nur deshalb komm ich zurück
+Mit flammendem Blick
+Ich nehm das letzte Streichholz
+Und verbrenne eure schöne heile Welt
+
+Sie kochte sich die letzte Mahlzeit
+Bevor sie sich erbrach
+Dann spuckte sie voll tiefer Abscheu
+Ins schwarze Schlafgemach
+Ich hoffe, dass wir uns
+Nie wieder sehen
+
+Damit ihr wisst wie es ist
+In der Hölle zu sein
+Damit ihr wisst wie es ist
+Nach Erlösung zu schreien
+Nur deshalb komm ich zurück
+Mit flammendem Blick
+Ich nehm das letzte Streichholz
+Und verbrenne eure Welt
+Damit ihr wisst wie es ist
+In der Hölle zu sein
+Damit ihr wisst wie es ist
+Nach Erlösung zu schreien
+Nur deshalb komm ich zurück
+Mit flammendem Blick
+Ich nehm das letzte Streichholz
+Und verbrenne eure schöne heile Welt
+
+Wisst ihr jetzt, wie die Hölle wirklich ist?
+Wisst ihr jetzt, wie die Hölle wirklich ist?
+Wisst ihr, dass euer Spiel zu Ende ist?
+Wisst ihr, dass eure Liebe tödlich ist?
+Damit ihr wisst wie es ist
+In der Hölle zu sein
+Damit ihr wisst wie es ist
+Nach Erlösung zu schreien
+Nur deshalb komm ich zurück
+Komm ich zurück
+Mit flammendem Blick
+Flammendem Blick
+Ich nehm das letzte Streichholz
+Und verbrenne eure Welt
+Damit ihr wisst wie es ist
+In der Hölle zu sein (Damit ihr wisst wie es ist)
+Damit ihr wisst wie es ist
+Nach Erlösung zu schreien (Damit ihr wisst wie es ist)
+Nur deshalb komm ich zurück
+Komm ich zurück
+Mit flammendem Blick
+Flammendem Blick
+Ich nehm das letzte Streichholz
+Und verbrenne eure schöne heile WeltEmbedShare URLCopyEmbedCopy

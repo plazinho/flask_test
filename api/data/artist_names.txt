@@ -1,3 +1,5 @@
+21 Savage
+50 Cent
 ABBA
 AC_DC
 Aerosmith
@@ -9,19 +11,24 @@ Black Eyed Peas
 Black Flag
 Black Sabbath
 Blondie
+Blue Stahli
 Blues Saraceno
 Boyz II Men
 Bring Me The Horizon
+Britney Spears
 Brooks & Dunn
 Buffalo Springfield
 Calle 13
+Celldweller
 Chicago
 Cliff Richard & The Shadows
 Coldplay
+Craig David
 Cream
 Creedence Clearwater Revival
 Crosby, Stills & Nash
 Daft Punk
+David Guetta
 Death Cab for Cutie
 Def Leppard
 Demi Lovato
@@ -36,9 +43,11 @@ Earth, Wind & Fire
 Emerson, Lake & Palmer
 Eminem
 Fall Out Boy
+Fergie
 Fleetwood Mac
 Flo Rida
 Fugazi
+G-Eazy
 Genesis
 Gorillaz
 Green Day
@@ -46,18 +55,30 @@ Guns N’ Roses
 Halsey
 Hollywood Undead
 Imagine Dragons
+Jaden
+Joji
 Jonas Brothers
 Josylvio
 Joy Division
 Juelz Santana
+Justin Bieber
+Justin Timberlake
+Kanye West
 Keane
+Kendrick Lamar
 Kings of Convenience
 Kraftwerk
+Kylie Minogue
+Lady Gaga
 Ladysmith Black Mambazo
 Led Zeppelin
+Lil Happy Lil Sad
+Lil Peep
+Lil Skies
 Linkin Park
 LMFAO
 Mac Miller
+Marilyn Manson
 Maroon 5
 Meg Myers
 Metallica
@@ -78,6 +99,7 @@ Omen44 x Nipps (Buddha Brand) x Vikn (Tetrad The Gang Of Four)
 One Direction
 Oomph!
 OutKast
+P!nk
 Papa Roach
 Pavement
 Pearl Jam
@@ -88,6 +110,7 @@ Pixies
 Placebo
 Poco
 Portishead
+Post Malone
 Puffy AmiYumi
 Queen
 Radiohead
@@ -95,11 +118,16 @@ Rage Against the Machine
 Rammstein
 Rascal Flatts
 Red Hot Chili Peppers
+Rihanna
+Roxette
 Roxy Music
+Scarlxrd
 Scorpions
+Shakira
 Shanti Dope
 Skindred
 Sleater-Kinney
+Slipknot
 Sly and the Family Stone
 Sonic Youth
 Spice Girls
@@ -152,6 +180,7 @@ The Police
 The Pretty Reckless
 The Prodigy
 The Ramona Flowers
+The Rasmus
 The Replacements
 The Rolling Stones
 The Shirelles
@@ -177,39 +206,11 @@ TV on the Radio
 U2
 Van Halen
 Wilco
+Will Smith
+Wiz Khalifa
+XXXTENTACION
 Yo La Tengo
+Yung Lean
 Yung Lee (Beast Boy) x Sky, The Vision
 ZZ Top
-Celldweller
-Blue Stahli
-Kanye West
-Roxette
-Lady Gaga
-50 Cent
-Post Malone
-Lil Skies
-21 Savage
-Lil Peep
-XXXTENTACION
-Lil Happy Lil Sad
-Fergie
-P!nk
-Jaden
-Will Smith
-Joji
-Rihanna
-Shakira
-Kendrick Lamar
-G-Eazy
-Wiz Khalifa
-Scarlxrd
-Britney Spears
-Kylie Minogue
-Justin Timberlake
-Marilyn Manson
-Yung Lean
-Craig David
-David Guetta
-Slipknot
-BIGBANG (빅뱅)
-Justin Bieber
+Christina Aguilera

@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def recommend(name: str, top=5):
+def recommend(name: str, top=10):
     """
     Рекомендует 'top' похожих исполнителей на исполнителя 'name' пользователю
     :param name: запрос исполнителя от пользователя

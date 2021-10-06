@@ -12,7 +12,7 @@ wn_lemmatizer = WordNetLemmatizer()
 
 def clean_and_lemmatize(text: str, tokenizer=reg_tok, stopw=stop_nltk, lemmatizer=wn_lemmatizer) -> str:
     """
-    Предобработка текстов песен исполнителя
+    Функция для предобработки текстов песен исполнителя
     :param text: принимает на вход строку - файл с текстами всех песен исполнителя.
     :param tokenizer: токенизатор
     :param stopw: стоп-слова

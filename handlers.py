@@ -5,14 +5,31 @@ from aiogram import types
 
 from bot import bot, dp
 from api.loader import ADMIN_ID
+from api.checkers.files_checker import files_checker
 from static.texts import INFO, START, INPUT_ERROR, HELP
 from static.artist_list import artist_list
 from static.artist_count import artist_count
 
 
+# Проверка локальной базы
 async def startup(dispatcher):
-    logging.info(f'Бот запущен в {time.asctime()}')
-    await bot.send_message(chat_id=ADMIN_ID, text='Бот запущен')
+    result = files_checker()
+    if result == 'OK':
+        logging.info(f'Бот начал работу в {time.asctime()}')
+        await bot.send_message(chat_id=ADMIN_ID, text='Требуемые файлы проверены, все в норме, бот работает')
+
+    elif result == 'initializing':
+        # запуск скрипта, инициализирующего первоначальную базу
+        await bot.send_message(chat_id=ADMIN_ID, text='Подождите, инициализируется локальная база')
+        logging.info(f'Началась инициализация локальной базы в {time.asctime()}')
+        import api.core.init_script
+        logging.info(f'Закончилась инициализация локальной базы в {time.asctime()}')
+        await bot.send_message(chat_id=ADMIN_ID, text='Расчет локальной базы завершен')
+
+    elif result == 'init file does not exist':
+        await bot.send_message(chat_id=ADMIN_ID, text="Отсутствует файл 'api/data/init_names.txt', "
+                                                      "убедитесь в начиличие файла с именами исполнителей для "
+                                                      "создания локальной базы")
 
 
 async def shutdown(dispatcher):
@@ -71,8 +88,10 @@ async def user_request(message: types.Message):
             await bot.send_message(chat_id=user_id, text=f'В локальной базе отсутствует исполнитель,'
                                                          f' обновляем и пересчитываем базу, это может занять 1-2 минуты...')
             logging.info(f"Начали обновлять базу по запросу '{txt}' от {user_name} в {time.asctime()}")
+            # обновляем базу
             single_artist_update(name)
             await message.reply(recommend(name))
+            logging.info(f"Закончили обновлять базу по запросу '{txt}' от {user_name} в {time.asctime()}")
         else:
             await message.reply(recommend(name))
 

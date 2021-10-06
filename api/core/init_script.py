@@ -20,7 +20,7 @@ from api.core.tf_idf import tf_idf
 with open("api/data/init_names.txt", 'r', encoding="utf-8") as file:  # файл с именами исполнителей для создания первоначальной базы
     names = file.read().strip().split('\n')
 
-Parallel(n_jobs=-1, verbose=100)(delayed(init_parser)(i, 10) for i in names)  # скачиваем тексты песен в папку data/raw_data
+Parallel(n_jobs=32, verbose=100)(delayed(init_parser)(i, 20) for i in names)  # скачиваем тексты песен в папку data/raw_data
 
 # записываем в файл artist_names.txt имена исполнителей, тексты песен которых удалось скачать
 for artist in os.listdir("api/data/raw_data"):

@@ -1,3 +1,5 @@
+# Файл для подгрузки переменных
+
 import os
 from dotenv import load_dotenv
 

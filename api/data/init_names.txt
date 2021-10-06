@@ -1,5 +1,5 @@
 ABBA
-AC DC
+AC_DC
 Aerosmith
 Alice Cooper
 Arcade Fire
@@ -31,6 +31,7 @@ Dire Straits
 Disturbed
 Don Toliver
 Drake
+Eagles
 Earth, Wind & Fire
 Emerson, Lake & Palmer
 Eminem
@@ -41,7 +42,7 @@ Fugazi
 Genesis
 Gorillaz
 Green Day
-Guns N Roses
+Guns N’ Roses
 Halsey
 Hollywood Undead
 Imagine Dragons
@@ -124,7 +125,6 @@ The Decemberists
 The Dillards
 The Doors
 The Drifters
-Eagles
 The Everly Brothers
 The Flamingos
 The Flying Burrito Brothers
@@ -139,7 +139,7 @@ The Judds
 The Kingston Trio
 The Kinks
 The Louvin Brothers
-The Lovin Spoonful
+The Lovin’ Spoonful
 The Melons
 The Mills Brothers
 The Monkees
@@ -180,3 +180,36 @@ Wilco
 Yo La Tengo
 Yung Lee (Beast Boy) x Sky, The Vision
 ZZ Top
+Celldweller
+Blue Stahli
+Kanye West
+Roxette
+Lady Gaga
+50 Cent
+Post Malone
+Lil Skies
+21 Savage
+Lil Peep
+XXXTENTACION
+Lil Happy Lil Sad
+Fergie
+P!nk
+Jaden
+Will Smith
+Joji
+Rihanna
+Shakira
+Kendrick Lamar
+G-Eazy
+Wiz Khalifa
+Scarlxrd
+Britney Spears
+Kylie Minogue
+Justin Timberlake
+Marilyn Manson
+Yung Lean
+Craig David
+David Guetta
+Slipknot
+Justin Bieber
+The Rasmus

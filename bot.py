@@ -2,10 +2,6 @@ import logging
 
 from aiogram import Bot, Dispatcher, executor
 
-# Инициализация локальной базы
-import api.checkers.file_checker
-#
-
 from api.loader import TELEGRAM_TOKEN
 
 # Логирование
@@ -15,6 +11,7 @@ logging.basicConfig(filename='log.log',
 # Инициализация бота
 bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher(bot)
+
 
 if __name__ == '__main__':
     from handlers import startup, shutdown, dp

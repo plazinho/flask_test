@@ -3,14 +3,12 @@ import lyricsgenius as lg
 from api.loader import API_TOKEN
 
 
-def init_parser(name: str, k=15):
+def init_parser(name: str, k=20):
     """
     Функция записывает определенное количество текстов песен 'k' в файл с именем исполнителя 'name'
-
     Также в этой функции проверяется написание имени исполнителей 'name'
     из нашего изначального списка исполнителей init_names.txt
     с правильным написанием имени исполнителя 'true_name' в базе 'Genius', поэтому название файла записывается по 'true_name'
-
     :param name: имя исполнителя
     :param k: кол-во песен для записи
     :return:
