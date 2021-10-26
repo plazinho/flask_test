@@ -8,6 +8,4 @@ In order to get a recommendation from the bot:
 - recommendation system of the bot was build using TF-IDF and allows to find artist that have similar lyrics;
 - bot will show top 5 similar artists;
 - you are also able to check what artists bot currently knows
--  
-
-https://user-images.githubusercontent.com/88561819/138887685-7f7f7264-0e46-4860-a77f-7544381baf7c.mp4
+  
