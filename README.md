@@ -1,9 +1,9 @@
 # Telegram bot that recommends musical artists by lyrics similarity
 ## Bot name: @recommend_an_artist_bot
 ## Bot works only with artists that perform in english
-- recommendation system of the bot was build using TF-IDF and allows to find artist that have similar lyrics;
-- bot will show top 5 similar artists;
-- you are also able to check what artists bot currently knows
+- TfidfVectorizer from sklearn library is used to calculate the TF-IDF of all words in the lyrics of singers and, on the basis of cosine similarity, likeness/similarity of artists is found
+- If the requested singer is not present in the local database bot warns the user and begins to update and recalculate the DB
+- Possibility of a "cold start" of the bot is implemented - when it is launched, the presence of the required data is checked. If something went wrong you should delete everything in directory 'api/data/' except 'init_names.txt' file which contains singers names to help create initial local DB. Then run 'bot.py' again
 
 ### In order to start bot on your machine:
 - Create a bot with a help of @BotFather in telegram
@@ -13,9 +13,8 @@
 - Run 'bot.py' to start the bot
 
 ### In order to get a recommendation from the bot:
-- In order to get a recommendation from the bot send artist name you are interested in
+- Send artist name you are interested in
 - Bot will check if the artist exists in local database. If not then with a help of Genius API local DB will be updated. Otherwise bot will make a recommendation of a top10 similar artists right away
-
 
 ### Available commands:
 - /start - welcome message
