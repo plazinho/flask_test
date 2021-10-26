@@ -16,9 +16,13 @@
 - Send artist name you are interested in
 - Bot will check if the artist exists in local database. If not then with a help of Genius API local DB will be updated. Otherwise bot will make a recommendation of a top10 similar artists right away
 
+![rec-x2](https://user-images.githubusercontent.com/88561819/138957735-ea65581d-f52d-4e0d-bf33-0280a3cab04e.jpg)
+
 ### Available commands:
 - /start - welcome message
 - /info - about bot
 - /artists - list of artists in local DB
 - /artists_count - number of music artists in the database
-- /help - available commands
+- /help - available commands!
+
+![x2](https://user-images.githubusercontent.com/88561819/138955995-4fe974aa-b4eb-4347-9670-0fdb0eb68088.jpg)
