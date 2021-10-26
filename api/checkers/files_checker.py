@@ -14,6 +14,11 @@ def files_checker(json_path="api/data/dictionary_words.json",
     рассчитываться матрица косинусной близости текстов песен исполнителей
     :return: результат проверки
     """
+    # проверка требумых файлов для работы с текстами песен исполнителей
+    import nltk
+    nltk.download('wordnet')
+    nltk.download('stopwords')
+
     # проверка существования папки, куда будут записываться файлы с текстами песен исполнителей
     if not os.path.exists(raw_data_path):
         os.mkdir(raw_data_path)
