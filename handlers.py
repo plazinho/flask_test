@@ -86,7 +86,7 @@ async def user_request(message: types.Message):
             await message.reply(f"Не удается найти '{txt}', проверь правильность написания имени исполнителя")
         elif artist_checker(name) == 'not in DB':
             await bot.send_message(chat_id=user_id, text=f'В локальной базе отсутствует исполнитель,'
-                                                         f' обновляем и пересчитываем базу, это может занять 1-2 минуты...')
+                                                         f' обновляем и пересчитываем базу, это может занять несколько минут')
             logging.info(f"Начали обновлять базу по запросу '{txt}' от {user_name} в {time.asctime()}")
             # обновляем базу
             single_artist_update(name)
