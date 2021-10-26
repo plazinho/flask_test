@@ -9,4 +9,5 @@ In order to get a recommendation from the bot:
 - bot will show top 5 similar artists;
 - you are also able to check what artists bot currently knows
 -  
-![Kirill](https://user-images.githubusercontent.com/88561819/138887482-13dbcc3f-4491-41e1-86fc-cef6f2d0babc.gif)
+
+https://user-images.githubusercontent.com/88561819/138887685-7f7f7264-0e46-4860-a77f-7544381baf7c.mp4
