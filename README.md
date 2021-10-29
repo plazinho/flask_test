@@ -1,15 +1,16 @@
 # Telegram bot that recommends music artists by lyrics similarity
-## Bot name: @recommend_an_artist_bot
+## Bot: [@recommend_an_artist_bot](https://t.me/recommend_an_artist_bot)
 ## Bot works only with singers that perform in english
 - TfidfVectorizer from sklearn library is used to calculate the TF-IDF of all words in the lyrics of singers and, on the basis of cosine similarity, likeness/similarity of artists is found
+- There are more than 240 music artists in the local database
 - If the requested singer is not present in the local database bot warns the user and begins to update and recalculate the DB
 - Possibility of a "cold start" of the bot is implemented - when it is launched, the presence of the required data is checked. If something went wrong you should delete everything in directory 'api/data/' except 'init_names.txt' file which contains singers names to help create initial local DB. Then run 'bot.py' again
 - Deployed on [AWS](https://lightsail.aws.amazon.com/)
 
 ### In order to start bot on your machine:
-- Create a bot with a help of @BotFather in telegram
+- Create a bot with a help of [@BotFather](https://t.me/BotFather) in telegram
 - Clone repository
-- Create '.env' file in main directory which will contain your Genius API TOKEN, telegram bot TOKEN and your telegram user id(you can check it with a help of @ShowJsonBot). '.env.dist' is an example of a '.env' file
+- Create '.env' file in main directory which will contain your [Genius API TOKEN](https://genius.com/api-clients), telegram bot TOKEN and your telegram user id(you can check it with a help of [@ShowJsonBot](https://t.me/ShowJsonBot)). '.env.dist' is an example of a '.env' file
 - Install required libraries (pip install -r requirements.txt)
 - Run 'bot.py' to start the bot
 
